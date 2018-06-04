@@ -1,0 +1,17 @@
+Biblioteca do sensor de temperatura DHT11
+Baixar e instalar a biblioteca Adafruit no Raspbian.Serve para o DHT11 e DHT22.
+
+Com o Raspberry conectado à internet, abrir o LX Terminal e digite os seguintes comandos:
+
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git
+
+cd Adafruit_Python_DHT
+
+Utilize os comandos abaixo para atualizar o Raspberry:
+
+sudo apt-get update
+sudo apt-get install build-essential python-dev
+
+Continuar com a instalação da biblioteca:
+
+sudo python setup.py install

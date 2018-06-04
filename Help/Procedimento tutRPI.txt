@@ -1,0 +1,7 @@
+https://tutorials-raspberrypi.com/configure-and-read-out-the-raspberry-pi-gas-sensor-mq-x/
+git clone https://github.com/tutRPi/Raspberry-Pi-Gas-Sensor-MQ
+
+Then we change to the directory and run the existing Python test file.
+
+cd Raspberry-Pi-Gas-Sensor-MQ
+sudo python example.py

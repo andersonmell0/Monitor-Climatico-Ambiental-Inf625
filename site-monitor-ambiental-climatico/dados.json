@@ -1,0 +1,14 @@
+{
+	'coletaTemperatura':
+		[
+			{'data': '30/04/2018', 'hora': '8:00', temperatura: '25º'},
+			{'data': '30/04/2018', 'hora': '8:30', temperatura: '26º'},
+			{'data': '30/04/2018', 'hora': '9:00', temperatura: '27º'},
+		],
+	'coletaUmidade':
+		[
+			{'data': '30/04/2018', 'hora': '8:00', umidade: '70%'},
+			{'data': '30/04/2018', 'hora': '8:30', umidade: '69%'},
+			{'data': '30/04/2018', 'hora': '9:00', umidade: '68%'},
+		]
+}

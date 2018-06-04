@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Monitor Ambiental e Climático</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!---Java Script-->
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">google.load("jquery", "1.3.2", {uncompressed:true});</script>
+  <script type="text/javascript" src="js/funcoes.class.js"></script>
+</head>
+<body>
+  <nav class="light-green lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">ECO-IFBA</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Temperatura</a></li>
+        <li><a href="#">Umidade</a></li>
+        <li><a href="#">Sensor3</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Temperatura</a></li>
+        <li><a href="#">Umidade</a></li>
+        <li><a href="#">Sensor3</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Monitor Ambiental e Climático</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Verifique aqui as condições climáticas e ambientais antes de sair de casa.</h5>
+      </div>
+      <br><br>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <!--   Icon Section   -->
+      <div class="row">
+   
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">opacity</i></h2>
+            <h5 class="center">Umidade</h5>
+            <div id="umidade"></div>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">ac_unit</i></h2>
+            <h5 class="center">Temperatura</h5>
+            <div id="temperatura"></div>  
+          </div>
+        </div>
+      
+		<div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">wb_sunny</i></h2>
+            <h5 class="center">Teste Carregando temp.txt </h5>
+
+            <p>  
+            <object data="temp.txt" type="text/plain" width="400" height="600">
+            Desculpe, seu navegador não suporta esta função, tente baixar o arquivo 
+            <a href="temp.txt">temp.txt</a>  
+            </object>  
+            </p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">wb_sunny</i></h2>
+            <h5 class="center">Teste Carregando temp.txt </h5>
+
+            <p>  
+            <object data="temp.txt" type="text/plain" width="400" height="600">
+            Desculpe, seu navegador não suporta esta função, tente baixar o arquivo 
+            <a href="temp.txt">temp.txt</a>  
+            </object>  
+            </p>
+          </div>
+        </div>
+      </div>
+  	</div>
+  </div>
+
+  <footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">GSORT</h5>
+          <p class="grey-text text-lighten-4">Este trabalho foi produzido para compor nota da disciplina INF-625 lecionada pelo prof. Manoel Neto da Especialização em Computação Distríbuida e Úbiqua do IFBA.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+        <h5 class="white-text">Salvador</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Salvador</a></li>
+            <li><a class="white-text" href="#!">Lauro de Freitas</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Bairros</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Barbalho</a></li>
+            <li><a class="white-text" href="#!">São Rafael</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      	<div class="container">
+      		Feito por <a class="orange-text text-lighten-3" href="mailto:anderson.mello@ifba.edu.br">Anderson Mello</a>
+      	</div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
